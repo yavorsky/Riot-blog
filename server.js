@@ -26,5 +26,5 @@ app.post('/posts', function (req, res) {
 
 app.listen(PORT)
 
-console.log("Listening " + PORT)
+console.log("Listening " + PORT + ". Visit: localhost:3000.")
 
