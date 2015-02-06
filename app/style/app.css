@@ -1,0 +1,99 @@
+body {
+  font-family: 'Helvetica Neue' ,'myriad pro', sans-serif;
+}
+
+app, posts {
+  display: block;
+}
+
+app {
+  width: 400px;
+  margin: 20px auto;
+}
+
+app > h3 {
+  text-align: center;
+  font-size: 44px;
+  font-weight: 300;
+  margin: 0;
+}
+
+app > h4 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+app > h4 > a {
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #F2174F;
+}
+
+app posts {
+  margin-top: 20px;
+}
+
+app posts ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+app posts ul li {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #D4D4D4;
+}
+
+app posts form {
+  margin-top: 40px;
+}
+
+app posts form input, app posts form textarea, app posts form button {
+  display: block;
+  padding: 10px;
+  margin: 10px auto;
+  font-size: 14px;
+  outline: none;
+  width: 200px;
+  height: 20px;
+  border: none;
+}
+
+app posts form input {
+  border-bottom: 1px solid #D4D4D4;
+}
+
+app posts form textarea {
+  border: 1px solid #D4D4D4;
+}
+
+app posts form button {
+  height: 40px;
+  width: 220px;
+  background: #30bdee;
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: opacity .3s ease;
+  -webkit-transition: opacity .3s ease;
+}
+
+app posts form button:disabled {
+  opacity: .2;
+}
+
+app posts form textarea {
+  transition: height .3s ease;
+  -webkit-transition: height .3s ease;
+}
+
+
+app posts form textarea:focus {
+  height: 100px;
+}
