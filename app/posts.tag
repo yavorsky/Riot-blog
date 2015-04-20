@@ -39,7 +39,6 @@
     if (self.body && self.title) {
       //Run action connected with store.
       store.actions.add({ body: self.body, title: self.title, date: new Date() })
-      self.title = self.body = self.body.value = ''
     }
   }
 
